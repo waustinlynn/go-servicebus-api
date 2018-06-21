@@ -9,4 +9,5 @@ RUN go get github.com/waustinlynn/go-servicebus
 ADD . /app/ 
 WORKDIR /app 
 RUN go build -o main . 
+EXPOSE 8001
 CMD ["/app/main"]
