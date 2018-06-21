@@ -4,7 +4,7 @@ RUN go get github.com/gorilla/mux
 RUN go get github.com/gorilla/context
 RUN go get github.com/dgrijalva/jwt-go
 RUN go get github.com/mendsley/gojwk
-RUN go get github.com/waustinlynn/servicebus
+RUN go get github.com/waustinlynn/go-servicebus
 
 ADD . /app/ 
 WORKDIR /app 
